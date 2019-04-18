@@ -13,6 +13,7 @@
 ### Training set
 - 包含4183条新闻纪录，分别来自2019-1-23至2019-2-7的社交媒体和**各种语言**的官方数据库；
 - 确定了16个主要的食品安全相关事件，这些事件已被标记为任意标识符（Event-ID）1-16。与食品安全不相关的事件没有分配事件ID。
+
 |Field	|Data type	|Example value	|Description|
 |-------|-----------|---------------|-----------|
 |Date	|Date	|2019-02-07	|Date from timestamp|
@@ -28,6 +29,7 @@
 1. Prediction on test set
 2. Summary and description of identified events: 1-page
    format:
+   
    |Event ID|Number of news items|Timestamp of first news item|Description of the event|
    |----|----|----|----|
    |1   |245 |03.02.201916:00:20	|Canned dog food has been recalled due to excessive levels of Vitamin D.|
